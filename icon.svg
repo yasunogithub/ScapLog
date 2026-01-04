@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#151B22"/>
+      <stop offset="55%" stop-color="#0F141A"/>
+      <stop offset="100%" stop-color="#0B0E12"/>
+    </linearGradient>
+
+    <radialGradient id="bgGlow" cx="0.22" cy="0.18" r="0.75">
+      <stop offset="0%" stop-color="#1D2B31" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#121922" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0B0E12" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="selectionStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C9A24A"/>
+      <stop offset="38%" stop-color="#E9C977"/>
+      <stop offset="58%" stop-color="#C89A3A"/>
+      <stop offset="72%" stop-color="#1B2229"/>
+      <stop offset="100%" stop-color="#8E6B1F"/>
+    </linearGradient>
+    <linearGradient id="dashFlow" gradientUnits="userSpaceOnUse" x1="176" y1="176" x2="848" y2="848">
+      <stop offset="0%" stop-color="#F9FCFF"/>
+      <stop offset="22%" stop-color="#E5EDF6"/>
+      <stop offset="45%" stop-color="#C9D5E5"/>
+      <stop offset="65%" stop-color="#F3D59A"/>
+      <stop offset="82%" stop-color="#E3B86A"/>
+      <stop offset="100%" stop-color="#C98F35"/>
+    </linearGradient>
+
+    <linearGradient id="arrowAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F0C56A"/>
+      <stop offset="50%" stop-color="#F5D57F"/>
+      <stop offset="100%" stop-color="#C9962F"/>
+    </linearGradient>
+
+    <linearGradient id="finGradRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9962F"/>
+      <stop offset="50%" stop-color="#F5D57F"/>
+      <stop offset="100%" stop-color="#F0C56A"/>
+    </linearGradient>
+    <linearGradient id="finGradDown" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C9962F"/>
+      <stop offset="50%" stop-color="#F5D57F"/>
+      <stop offset="100%" stop-color="#F0C56A"/>
+    </linearGradient>
+    <linearGradient id="finGradLeft" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0%" stop-color="#C9962F"/>
+      <stop offset="50%" stop-color="#F5D57F"/>
+      <stop offset="100%" stop-color="#F0C56A"/>
+    </linearGradient>
+    <linearGradient id="finGradUp" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#C9962F"/>
+      <stop offset="50%" stop-color="#F5D57F"/>
+      <stop offset="100%" stop-color="#F0C56A"/>
+    </linearGradient>
+
+    <linearGradient id="glintAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFD57A" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#D39A2A" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="glintMaskGrad" gradientUnits="userSpaceOnUse" x1="176" y1="176" x2="700" y2="176">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="45%" stop-color="white"/>
+      <stop offset="75%" stop-color="black"/>
+      <stop offset="100%" stop-color="black"/>
+    </linearGradient>
+    <filter id="glintGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2.2" flood-color="#FFFFFF" flood-opacity="1"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="6.5" flood-color="#FFE9B6" flood-opacity="0.85"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#FFD07A" flood-opacity="0.4"/>
+    </filter>
+
+    <pattern id="finRight" patternUnits="userSpaceOnUse" width="20" height="12">
+      <path d="M 2 2 L 19 7 L 7 12 Z" fill="url(#finGradRight)" fill-opacity="0.45"/>
+    </pattern>
+    <pattern id="finRightGlint" patternUnits="userSpaceOnUse" width="20" height="12">
+      <path d="M 2 2 L 19 7 L 7 12 Z" fill="url(#glintAccent)" fill-opacity="0.9"/>
+    </pattern>
+    <pattern id="finDown" patternUnits="userSpaceOnUse" width="20" height="12" patternTransform="rotate(90 10 6)">
+      <path d="M 2 2 L 19 7 L 7 12 Z" fill="url(#finGradDown)" fill-opacity="0.45"/>
+    </pattern>
+    <pattern id="finLeft" patternUnits="userSpaceOnUse" width="20" height="12" patternTransform="rotate(180 10 6)">
+      <path d="M 2 2 L 19 7 L 7 12 Z" fill="url(#finGradLeft)" fill-opacity="0.45"/>
+    </pattern>
+    <pattern id="finUp" patternUnits="userSpaceOnUse" width="20" height="12" patternTransform="rotate(270 10 6)">
+      <path d="M 2 2 L 19 7 L 7 12 Z" fill="url(#finGradUp)" fill-opacity="0.45"/>
+    </pattern>
+    <linearGradient id="textFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#E9F0F8"/>
+      <stop offset="55%" stop-color="#D2DDEA"/>
+      <stop offset="75%" stop-color="#F0D29A"/>
+      <stop offset="100%" stop-color="#D3A24A"/>
+    </linearGradient>
+    <linearGradient id="textGlint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="18%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="45%" stop-color="#F2F7FF" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#F6E6C2" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#F6E6C2" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#151C25"/>
+      <stop offset="100%" stop-color="#10151C"/>
+    </linearGradient>
+
+    <mask id="selectionMask">
+      <rect x="0" y="0" width="1024" height="1024" fill="white"/>
+      <rect x="120" y="120" width="784" height="784" rx="124" fill="black"/>
+    </mask>
+    <clipPath id="selectionClip">
+      <rect x="176" y="176" width="672" height="672" rx="102"/>
+    </clipPath>
+
+    <linearGradient id="dashFade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#303030"/>
+      <stop offset="18%" stop-color="#3A3A3A"/>
+      <stop offset="45%" stop-color="#6B6B6B"/>
+      <stop offset="72%" stop-color="#B5B5B5"/>
+      <stop offset="100%" stop-color="white"/>
+    </linearGradient>
+    <mask id="dashFadeMask">
+      <rect x="0" y="0" width="1024" height="1024" fill="white"/>
+      <rect x="144" y="144" width="300" height="300" fill="url(#dashFade)"/>
+    </mask>
+    <mask id="glintMask">
+      <rect x="0" y="0" width="1024" height="1024" fill="black"/>
+      <rect x="176" y="172" width="520" height="12" fill="url(#glintMaskGrad)"/>
+    </mask>
+
+    <clipPath id="borderClip">
+      <rect x="176" y="176" width="672" height="672" rx="102"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1024" height="1024" rx="160" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1024" height="1024" rx="160" fill="url(#bgGlow)"/>
+
+  <!-- Dimmed outside selection (subtle) -->
+  <rect x="0" y="0" width="1024" height="1024" rx="160" fill="#000000" opacity="0.22" mask="url(#selectionMask)"/>
+
+  <!-- Selection panel -->
+  <rect x="120" y="120" width="784" height="784" rx="124" fill="url(#panel)"/>
+  <rect x="176" y="176" width="672" height="672" rx="102"
+        fill="#FFFFFF" opacity="0.03" clip-path="url(#selectionClip)"/>
+
+  <!-- Selection border (dashed, with fade) -->
+  <rect x="176" y="176" width="672" height="672" rx="102"
+        fill="none" stroke="url(#dashFlow)" stroke-opacity="0.92"
+        stroke-width="32" stroke-dasharray="48 72" stroke-dashoffset="60"
+        stroke-linecap="round" mask="url(#dashFadeMask)"/>
+
+  <!-- Summarized text -->
+  <g>
+    <line x1="260" y1="420" x2="764" y2="420" stroke="url(#textFill)" stroke-width="35" stroke-linecap="round"/>
+    <line x1="260" y1="540" x2="716" y2="540" stroke="url(#textFill)" stroke-width="35" stroke-linecap="round"/>
+    <line x1="260" y1="660" x2="676" y2="660" stroke="url(#textFill)" stroke-width="35" stroke-linecap="round"/>
+  </g>
+  <g opacity="1" clip-path="url(#selectionClip)">
+    <line x1="260" y1="420" x2="764" y2="420" stroke="url(#textGlint)" stroke-width="20" stroke-linecap="round"/>
+    <line x1="260" y1="540" x2="716" y2="540" stroke="url(#textGlint)" stroke-width="20" stroke-linecap="round"/>
+    <line x1="260" y1="660" x2="676" y2="660" stroke="url(#textGlint)" stroke-width="20" stroke-linecap="round"/>
+  </g>
+</svg>

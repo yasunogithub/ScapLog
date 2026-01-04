@@ -1,0 +1,183 @@
+/*
+  Localizable.strings (Japanese)
+  ScapLog
+*/
+
+// MARK: - Common
+"common.cancel" = "キャンセル";
+"common.ok" = "OK";
+"common.delete" = "削除";
+"common.save" = "保存";
+"common.close" = "閉じる";
+"common.add" = "追加";
+"common.edit" = "編集";
+"common.done" = "完了";
+"common.error" = "エラー";
+"common.success" = "成功";
+"common.loading" = "読み込み中...";
+"common.none" = "なし";
+"common.unknown" = "不明";
+
+// MARK: - Settings View
+"settings.title" = "設定";
+
+// Capture Settings
+"settings.capture.title" = "キャプチャ設定";
+"settings.capture.interval" = "間隔";
+"settings.capture.interval.30sec" = "30秒";
+"settings.capture.interval.1min" = "1分";
+"settings.capture.interval.2min" = "2分";
+"settings.capture.interval.5min" = "5分";
+"settings.capture.interval.10min" = "10分";
+"settings.capture.frontmost_only" = "最前面のウィンドウのみ";
+"settings.capture.frontmost_only.description" = "オフにすると画面全体をキャプチャ";
+"settings.capture.skip_private" = "プライベートブラウズ時はスキップ";
+"settings.capture.skip_private.description" = "シークレットモード/プライベートウィンドウを検出してキャプチャをスキップ";
+"settings.capture.effect" = "キャプチャエフェクト";
+"settings.capture.effect.none" = "なし";
+"settings.capture.effect.border_glow" = "ボーダー";
+"settings.capture.effect.flash" = "フラッシュ";
+"settings.capture.effect.vignette" = "ビネット";
+"settings.capture.effect.shrink" = "シュリンク";
+"settings.capture.effect.none.description" = "エフェクトなし";
+"settings.capture.effect.border_glow.description" = "画面端が光るエフェクト";
+"settings.capture.effect.flash.description" = "カメラフラッシュ風エフェクト";
+"settings.capture.effect.vignette.description" = "画面周辺が暗くなるエフェクト";
+"settings.capture.effect.shrink.description" = "縮小アニメーションエフェクト";
+"settings.capture.sound" = "キャプチャサウンド";
+"settings.capture.sound.description" = "キャプチャ時に効果音を再生";
+
+// General Settings
+"settings.general.title" = "一般";
+"settings.general.launch_at_login" = "ログイン時に起動";
+"settings.general.launch_at_login.description" = "Macにログインしたとき自動的に起動";
+"settings.general.hotkey" = "グローバルホットキー";
+"settings.general.hotkey.description" = "どこからでもキャプチャを実行";
+"settings.general.hotkey.shortcut" = "ショートカット:";
+"settings.general.window_opacity" = "ウィンドウ透明度";
+"settings.general.window_opacity.description" = "ウィンドウの背景透明度を調整";
+
+// Appearance Settings
+"settings.appearance.title" = "外観設定";
+"settings.appearance.color_theme" = "カラーテーマ";
+"settings.appearance.blur_intensity" = "ブラー強度";
+"settings.appearance.blur_intensity.description" = "背景のぼかし強度を調整";
+"settings.appearance.overlay" = "オーバーレイ";
+"settings.appearance.overlay.description" = "グラデーション光沢の強さ";
+"settings.appearance.border" = "ボーダー";
+"settings.appearance.border.description" = "ガラス風ボーダーの濃さ";
+"settings.appearance.shadow" = "シャドウ";
+"settings.appearance.shadow.description" = "ドロップシャドウの濃さ";
+"settings.appearance.highlight" = "ハイライト";
+"settings.appearance.highlight.description" = "上部ハイライトラインの強さ";
+"settings.appearance.reset" = "デフォルトに戻す";
+
+// Excluded Apps
+"settings.excluded_apps.title" = "除外アプリ";
+"settings.excluded_apps.description" = "以下のアプリがアクティブの時はキャプチャしません";
+"settings.excluded_apps.add" = "アプリを追加";
+"settings.excluded_apps.select" = "アプリを選択";
+
+// AI Command
+"settings.ai_command.title" = "AIコマンド";
+"settings.ai_command.add" = "コマンドを追加";
+"settings.ai_command.new" = "新しいコマンド";
+"settings.ai_command.name" = "名前";
+"settings.ai_command.template" = "コマンドテンプレート";
+"settings.ai_command.template.placeholder" = "プレースホルダー: {image_path}, {prompt}";
+"settings.ai_command.default_prompt" = "デフォルトプロンプト";
+"settings.ai_command.builtin_ocr" = "macOS内蔵OCR";
+
+// Custom Prompt
+"settings.custom_prompt.title" = "カスタムプロンプト";
+"settings.custom_prompt.description" = "空欄の場合はコマンドのデフォルトプロンプトを使用";
+
+// Data Location
+"settings.data_location.title" = "データ保存先";
+"settings.data_location.screenshot_path" = "スクリーンショット保存先";
+"settings.data_location.select_folder" = "フォルダを選択";
+"settings.data_location.reset_default" = "デフォルトに戻す";
+"settings.data_location.open_finder" = "Finderで開く";
+"settings.data_location.auto_delete" = "自動削除";
+"settings.data_location.auto_delete.disabled" = "無効";
+"settings.data_location.auto_delete.description" = "%d日より古いデータを自動削除します";
+"settings.data_location.save_format" = "保存形式";
+"settings.data_location.format.png" = "PNG";
+"settings.data_location.format.jpeg" = "JPEG";
+"settings.data_location.format.png.description" = "高品質・可逆圧縮";
+"settings.data_location.format.jpeg.description" = "小サイズ・非可逆圧縮";
+"settings.data_location.jpeg_quality" = "JPEG品質";
+"settings.data_location.jpeg_quality.low" = "小サイズ";
+"settings.data_location.jpeg_quality.high" = "高品質";
+"settings.data_location.analyze_as_png" = "PNGで解析してから変換";
+"settings.data_location.analyze_as_png.description" = "高画質なPNGでAI解析し、保存時に選択形式へ変換します";
+
+// Data Management
+"settings.data_management.title" = "データ管理";
+"settings.data_management.count" = "枚";
+"settings.data_management.in_use" = "使用中";
+"settings.data_management.cleanup.title" = "データクリーンアップ";
+"settings.data_management.cleanup.target" = "削除対象: %d日より古いデータ";
+"settings.data_management.cleanup.preview" = "%d枚 (%@)";
+"settings.data_management.cleanup.preview.description" = "削除対象のスクリーンショット";
+"settings.data_management.cleanup.no_data" = "削除対象のデータはありません";
+"settings.data_management.cleanup.deleting" = "削除中...";
+"settings.data_management.cleanup.confirm" = "%d日より古いスクリーンショットとサマリーを削除しますか？この操作は取り消せません。";
+"settings.data_management.cleanup.confirm.title" = "確認";
+
+// Export
+"settings.export.title" = "データエクスポート";
+"settings.export.select_period" = "期間を選択";
+"settings.export.start_date" = "開始日";
+"settings.export.end_date" = "終了日";
+"settings.export.preset.days" = "%d日";
+"settings.export.preset.3months" = "3ヶ月";
+"settings.export.format" = "形式";
+"settings.export.count" = "%d件";
+"settings.export.target" = "エクスポート対象";
+"settings.export.button" = "エクスポート";
+"settings.export.exporting" = "処理中...";
+"settings.export.save_dialog.message" = "エクスポート先を選択してください";
+"settings.export.error.title" = "エクスポートエラー";
+"settings.export.error.unknown" = "不明なエラーが発生しました";
+"settings.export.error.invalid_date" = "開始日は終了日より前に設定してください";
+"settings.export.error.no_data" = "選択した期間にデータがありません";
+"settings.export.error.save_failed" = "ファイル保存に失敗しました: %@";
+"settings.export.error.export_failed" = "エクスポートに失敗しました: %@";
+
+// MARK: - Statistics View
+"statistics.title" = "統計";
+"statistics.total_captures" = "総キャプチャ数";
+"statistics.today" = "今日";
+"statistics.average_per_day" = "平均/日";
+"statistics.period" = "期間";
+"statistics.start_date" = "開始日";
+"statistics.days_elapsed" = "経過日数";
+"statistics.days" = "%d日";
+"statistics.app_usage" = "アプリ使用状況";
+"statistics.no_data" = "データがありません";
+
+// MARK: - Main View
+"main.search.placeholder" = "検索...";
+"main.capture.button" = "キャプチャ";
+"main.capture.running" = "キャプチャ中";
+"main.capture.stopped" = "停止中";
+"main.today_summaries" = "今日のサマリー";
+"main.recent_summaries" = "最近のサマリー";
+"main.no_summaries" = "サマリーがありません";
+"main.delete_confirm" = "このサマリーを削除しますか？";
+
+// MARK: - Errors
+"error.screen_capture.not_authorized" = "画面収録の権限がありません";
+"error.screen_capture.no_display" = "ディスプレイが見つかりません";
+"error.screen_capture.no_window" = "最前面のウィンドウが見つかりません";
+"error.screen_capture.save_failed" = "スクリーンショットの保存に失敗しました";
+"error.database.connection" = "DB接続: %@";
+"error.database.query" = "DB: %@";
+
+// MARK: - Menu Bar
+"menubar.show_window" = "ウィンドウを表示";
+"menubar.capture_now" = "今すぐキャプチャ";
+"menubar.settings" = "設定...";
+"menubar.statistics" = "統計";
+"menubar.quit" = "終了";

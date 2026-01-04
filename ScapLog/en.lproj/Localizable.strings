@@ -1,0 +1,183 @@
+/*
+  Localizable.strings (English)
+  ScapLog
+*/
+
+// MARK: - Common
+"common.cancel" = "Cancel";
+"common.ok" = "OK";
+"common.delete" = "Delete";
+"common.save" = "Save";
+"common.close" = "Close";
+"common.add" = "Add";
+"common.edit" = "Edit";
+"common.done" = "Done";
+"common.error" = "Error";
+"common.success" = "Success";
+"common.loading" = "Loading...";
+"common.none" = "None";
+"common.unknown" = "Unknown";
+
+// MARK: - Settings View
+"settings.title" = "Settings";
+
+// Capture Settings
+"settings.capture.title" = "Capture Settings";
+"settings.capture.interval" = "Interval";
+"settings.capture.interval.30sec" = "30s";
+"settings.capture.interval.1min" = "1min";
+"settings.capture.interval.2min" = "2min";
+"settings.capture.interval.5min" = "5min";
+"settings.capture.interval.10min" = "10min";
+"settings.capture.frontmost_only" = "Frontmost Window Only";
+"settings.capture.frontmost_only.description" = "Turn off to capture full screen";
+"settings.capture.skip_private" = "Skip Private Browsing";
+"settings.capture.skip_private.description" = "Detect and skip incognito/private windows";
+"settings.capture.effect" = "Capture Effect";
+"settings.capture.effect.none" = "None";
+"settings.capture.effect.border_glow" = "Border";
+"settings.capture.effect.flash" = "Flash";
+"settings.capture.effect.vignette" = "Vignette";
+"settings.capture.effect.shrink" = "Shrink";
+"settings.capture.effect.none.description" = "No effect";
+"settings.capture.effect.border_glow.description" = "Glowing border effect";
+"settings.capture.effect.flash.description" = "Camera flash effect";
+"settings.capture.effect.vignette.description" = "Darkened edges effect";
+"settings.capture.effect.shrink.description" = "Shrink animation effect";
+"settings.capture.sound" = "Capture Sound";
+"settings.capture.sound.description" = "Play sound on capture";
+
+// General Settings
+"settings.general.title" = "General";
+"settings.general.launch_at_login" = "Launch at Login";
+"settings.general.launch_at_login.description" = "Automatically start when you log in";
+"settings.general.hotkey" = "Global Hotkey";
+"settings.general.hotkey.description" = "Capture from anywhere";
+"settings.general.hotkey.shortcut" = "Shortcut:";
+"settings.general.window_opacity" = "Window Opacity";
+"settings.general.window_opacity.description" = "Adjust background transparency";
+
+// Appearance Settings
+"settings.appearance.title" = "Appearance";
+"settings.appearance.color_theme" = "Color Theme";
+"settings.appearance.blur_intensity" = "Blur Intensity";
+"settings.appearance.blur_intensity.description" = "Adjust background blur";
+"settings.appearance.overlay" = "Overlay";
+"settings.appearance.overlay.description" = "Gradient gloss intensity";
+"settings.appearance.border" = "Border";
+"settings.appearance.border.description" = "Glass border opacity";
+"settings.appearance.shadow" = "Shadow";
+"settings.appearance.shadow.description" = "Drop shadow opacity";
+"settings.appearance.highlight" = "Highlight";
+"settings.appearance.highlight.description" = "Top highlight line intensity";
+"settings.appearance.reset" = "Reset to Default";
+
+// Excluded Apps
+"settings.excluded_apps.title" = "Excluded Apps";
+"settings.excluded_apps.description" = "Capture is skipped when these apps are active";
+"settings.excluded_apps.add" = "Add App";
+"settings.excluded_apps.select" = "Select App";
+
+// AI Command
+"settings.ai_command.title" = "AI Commands";
+"settings.ai_command.add" = "Add Command";
+"settings.ai_command.new" = "New Command";
+"settings.ai_command.name" = "Name";
+"settings.ai_command.template" = "Command Template";
+"settings.ai_command.template.placeholder" = "Placeholders: {image_path}, {prompt}";
+"settings.ai_command.default_prompt" = "Default Prompt";
+"settings.ai_command.builtin_ocr" = "macOS Built-in OCR";
+
+// Custom Prompt
+"settings.custom_prompt.title" = "Custom Prompt";
+"settings.custom_prompt.description" = "Leave empty to use default command prompt";
+
+// Data Location
+"settings.data_location.title" = "Data Location";
+"settings.data_location.screenshot_path" = "Screenshot Save Location";
+"settings.data_location.select_folder" = "Select Folder";
+"settings.data_location.reset_default" = "Reset to Default";
+"settings.data_location.open_finder" = "Open in Finder";
+"settings.data_location.auto_delete" = "Auto Delete";
+"settings.data_location.auto_delete.disabled" = "Disabled";
+"settings.data_location.auto_delete.description" = "Auto-delete data older than %d days";
+"settings.data_location.save_format" = "Save Format";
+"settings.data_location.format.png" = "PNG";
+"settings.data_location.format.jpeg" = "JPEG";
+"settings.data_location.format.png.description" = "High quality, lossless";
+"settings.data_location.format.jpeg.description" = "Smaller size, lossy";
+"settings.data_location.jpeg_quality" = "JPEG Quality";
+"settings.data_location.jpeg_quality.low" = "Small Size";
+"settings.data_location.jpeg_quality.high" = "High Quality";
+"settings.data_location.analyze_as_png" = "Analyze as PNG then convert";
+"settings.data_location.analyze_as_png.description" = "Analyze with high-quality PNG, then convert to selected format for storage";
+
+// Data Management
+"settings.data_management.title" = "Data Management";
+"settings.data_management.count" = "screenshots";
+"settings.data_management.in_use" = "In Use";
+"settings.data_management.cleanup.title" = "Data Cleanup";
+"settings.data_management.cleanup.target" = "Target: Data older than %d days";
+"settings.data_management.cleanup.preview" = "%d files (%@)";
+"settings.data_management.cleanup.preview.description" = "Screenshots to be deleted";
+"settings.data_management.cleanup.no_data" = "No data to delete";
+"settings.data_management.cleanup.deleting" = "Deleting...";
+"settings.data_management.cleanup.confirm" = "Delete screenshots and summaries older than %d days? This action cannot be undone.";
+"settings.data_management.cleanup.confirm.title" = "Confirm";
+
+// Export
+"settings.export.title" = "Data Export";
+"settings.export.select_period" = "Select Period";
+"settings.export.start_date" = "Start Date";
+"settings.export.end_date" = "End Date";
+"settings.export.preset.days" = "%d days";
+"settings.export.preset.3months" = "3 months";
+"settings.export.format" = "Format";
+"settings.export.count" = "%d entries";
+"settings.export.target" = "Export Target";
+"settings.export.button" = "Export";
+"settings.export.exporting" = "Processing...";
+"settings.export.save_dialog.message" = "Select export destination";
+"settings.export.error.title" = "Export Error";
+"settings.export.error.unknown" = "An unknown error occurred";
+"settings.export.error.invalid_date" = "Start date must be before end date";
+"settings.export.error.no_data" = "No data in selected period";
+"settings.export.error.save_failed" = "Failed to save file: %@";
+"settings.export.error.export_failed" = "Export failed: %@";
+
+// MARK: - Statistics View
+"statistics.title" = "Statistics";
+"statistics.total_captures" = "Total Captures";
+"statistics.today" = "Today";
+"statistics.average_per_day" = "Avg/Day";
+"statistics.period" = "Period";
+"statistics.start_date" = "Start Date";
+"statistics.days_elapsed" = "Days Elapsed";
+"statistics.days" = "%d days";
+"statistics.app_usage" = "App Usage";
+"statistics.no_data" = "No data available";
+
+// MARK: - Main View
+"main.search.placeholder" = "Search...";
+"main.capture.button" = "Capture";
+"main.capture.running" = "Capturing";
+"main.capture.stopped" = "Stopped";
+"main.today_summaries" = "Today's Summaries";
+"main.recent_summaries" = "Recent Summaries";
+"main.no_summaries" = "No summaries";
+"main.delete_confirm" = "Delete this summary?";
+
+// MARK: - Errors
+"error.screen_capture.not_authorized" = "Screen recording permission required";
+"error.screen_capture.no_display" = "No display found";
+"error.screen_capture.no_window" = "No frontmost window found";
+"error.screen_capture.save_failed" = "Failed to save screenshot";
+"error.database.connection" = "Database connection: %@";
+"error.database.query" = "Database: %@";
+
+// MARK: - Menu Bar
+"menubar.show_window" = "Show Window";
+"menubar.capture_now" = "Capture Now";
+"menubar.settings" = "Settings...";
+"menubar.statistics" = "Statistics";
+"menubar.quit" = "Quit";

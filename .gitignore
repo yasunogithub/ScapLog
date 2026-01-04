@@ -1,0 +1,66 @@
+# Xcode
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Build
+build/
+*.o
+*.a
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code coverage
+*.gcno
+*.gcda
+*.profdata
+
+# IDE
+*.idea/
+*.swp
+*~
+
+# Claude Code
+.claude/history/
+.claude/sessions/
+.claude/logs/
+.claude/plans/
+
+# Serena
+.serena/
+
+# App data
+*.duckdb
+*.duckdb.wal
+Screenshots/
