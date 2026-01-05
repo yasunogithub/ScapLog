@@ -64,3 +64,4 @@ fastlane/test_output
 *.duckdb
 *.duckdb.wal
 Screenshots/
+.claude/changelogs/

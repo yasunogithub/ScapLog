@@ -1,6 +1,16 @@
-# ScapLog
+<p align="center">
+  <img src="icon.svg" alt="ScapLog Logo" width="128" height="128">
+</p>
 
-[日本語](#日本語) | [English](#english)
+<h1 align="center">ScapLog</h1>
+
+<p align="center">
+  <strong>macOS Screen Capture & AI Summarization</strong>
+</p>
+
+<p align="center">
+  <a href="#日本語">日本語</a> | <a href="#english">English</a>
+</p>
 
 ---
 
